@@ -1,0 +1,155 @@
+/* /* html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    
+} */
+
+:root {
+    --primary-color: #146C94;
+    --primary-color1: #D7EBED;
+    --secondary-color: #2F2963;
+    --background-color: #AFD3E2;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+
+header {
+background-color: black;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Monserrat";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color1);
+    padding: 0.5rem 3rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-icon {
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-button {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color1);
+}
+
+.info-cards {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    gap: 20px;
+}
+
+.info-card {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-head {
+    align-items: center;
+    text-align: center;
+}
+
+.advantages {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 10px;
+    align-content: center;
+}
+
+.adv-card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.adv-image {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
