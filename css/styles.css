@@ -1,11 +1,3 @@
-/* /* html {
-    font-size: 16px;
-}
-
-@media screen and (max-width: 768px){
-    
-} */
-
 :root {
     --primary-color: #146C94;
     --primary-color1: #D7EBED;
@@ -18,7 +10,6 @@
     src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
-
 header {
 background-color: black;
 }
@@ -26,6 +17,7 @@ background-color: black;
 body {
     background-color: var(--background-color);
     font-family: "Monserrat";
+    margin: 0;
 }
 
 .navbar {
@@ -33,12 +25,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--primary-color1);
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 5%;
 }
 
 .logo {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .logo-icon {
@@ -61,46 +54,130 @@ body {
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
+    background-color: var(--primary-color1);
+    border-color: var(--primary-color1);
+    border-style: solid;
+}
+
+.nav-button:hover {
+    color: var(--primary-color);
+}
+
+.login-button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.login-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    color: white;
+}
+
+.register-button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.register-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    color: white;
 }
 
 .dashboard {
     display: flex;
     flex-direction: row;
     position: relative;
+    padding: 50px;
+    height: 800px;
 }
 
 .dashboard-content {
     display: flex;
     flex-direction: column;
+    width: 35%;
+    padding: 50px;
+}
+
+.dashboard-background {
+    position: relative;
+    width: 65%;
+    padding: 50px;
+}
+
+#dash-img1 {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+
+#dash-img2 {
+    position: absolute;
+    top: 37%;
+    left: 15%;
 }
 
 .information {
     position: relative;
     width: 100%;
-    height: 600px;
+    /* height: 700px; */
+    align-items: center;
     display: flex;
     flex-direction: column;
     background-color: var(--primary-color1);
 }
 
+.info-head {
+    align-items: start;
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+}
+
 .info-cards {
-    /* position: absolute; */
+    /* position: relative; */
     display: flex;
     flex-direction: row;
-    padding: 0px 30px;
-    gap: 20px;
+    padding: 50px 30px;
+    align-content: center;
+    gap: 70px;
 }
 
 .info-card {
     /* position: absolute; */
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 200px;
     align-items: center;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     background-color: var(--primary-color);
+}
+
+.info-card-img {
+    width: 180px;
 }
 
 .about {
@@ -113,6 +190,7 @@ body {
 .about-head {
     align-items: center;
     text-align: center;
+    padding: 30px;
 }
 
 .advantages {
@@ -126,8 +204,10 @@ body {
 
 .adv-card {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 20%;
+    width: 300px;
+    text-align: center;
 }
 
 .adv-image {
@@ -141,6 +221,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding: 10px 5%;
 }
 
 .app {
@@ -152,4 +233,51 @@ body {
     display: flex;
     flex-direction: row;
     gap: 12px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.social-img {
+    width: 70px;
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+    body {
+      font-size: 12px;
+    }
+}
+
+.agreement {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        
+    }
+
+    .info-cards{
+        flex-direction: column;
+    }
+    
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
