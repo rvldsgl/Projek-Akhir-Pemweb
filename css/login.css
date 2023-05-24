@@ -1,0 +1,123 @@
+:root{
+    --font-family-outfit: "Outfit";
+
+    --font-size-l: 44px;
+    --font-size-s: 24px;
+}
+
+body{
+    margin: 0;
+    background-color: #AFD3E2;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+
+}
+
+.kata{
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.kotak{
+    transform: scale(1.7);
+    vertical-align: middle;
+}
+
+.cek{
+    font-size: 18px;
+    color: white;
+}
+
+.tombol{
+    width: 30%;
+    font-size: 18px;
+    padding: 6px;
+    margin-left: 250px;
+    font-weight: 700;
+    color: #146C94;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+.kolom{
+    background-color: white;
+    border-color: white;
+    display: flex;
+    padding-right: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.email{
+    color: white;
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-s);
+}
+
+.password{
+    color: white;
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-s);
+}
+
+.login{
+    display: flex;
+    gap: 92px;
+}
+
+.group1{
+    margin-top: 218px;
+    display: flex;
+    width: 488px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: #2F2963;
+    font-family: var(--font-family-outfit);
+    font-size: var(--font-size-l);
+    white-space: nowrap;
+    width: 282px;
+    margin-left: 490px;
+}
+
+.manusia{
+    margin-left: 490px;
+    height: 347px;
+    left: 0;
+    object-fit: cover;
+    /* position: absolute; */
+    top: 0;
+    width: 488px;
+}
+
+.group2{
+    align-items: center;
+    background-color: #146C94;
+    margin-top: 115px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 40px;
+    width: 400px;
+    margin-left: 300px;
+}
+
+.judul{
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    color: white;
+    font-family: var(--font-family-outfit);
+    min-height: 81px;
+}
