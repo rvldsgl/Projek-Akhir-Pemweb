@@ -37,7 +37,6 @@ body {
 .logo-icon {
     width: 3.4rem;
     height: 3.4rem;
-    border-radius: 10px;
 }
 
 .nav {
@@ -82,6 +81,7 @@ body {
     border-color: var(--primary-color);
     border-style: solid;
     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 .register-button {
@@ -103,6 +103,7 @@ body {
     border-color: var(--primary-color);
     border-style: solid;
     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 .dashboard {
@@ -159,7 +160,7 @@ body {
     /* position: relative; */
     display: flex;
     flex-direction: row;
-    padding: 50px 30px;
+    padding: 50px 30px 150px 30px;
     align-content: center;
     gap: 70px;
 }
@@ -174,6 +175,10 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--primary-color);
+}
+
+.info-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
 .info-card-img {
@@ -220,7 +225,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: var(--primary-color1);
     padding: 10px 5%;
 }
 
@@ -251,6 +256,12 @@ body {
     width: 70px;
 }
 
+.agreement {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 @media only screen and (max-width: 1200px) {
     html {
         font-size: 12px;
@@ -258,12 +269,6 @@ body {
     body {
       font-size: 12px;
     }
-}
-
-.agreement {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
 }
 
 @media screen and (max-width: 900px) {

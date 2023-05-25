@@ -1,13 +1,25 @@
 :root{
-    --font-family-outfit: "Outfit";
-
     --font-size-l: 44px;
     --font-size-s: 24px;
+
+    --primary-color: #146C94;
+    --primary-color1: #D7EBED;
+    --secondary-color: #2F2963;
+    --background-color: #AFD3E2;
+}
+
+:root {
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
 body{
     margin: 0;
     background-color: #AFD3E2;
+    font-family: "Monserrat";
 }
 
 .link{
