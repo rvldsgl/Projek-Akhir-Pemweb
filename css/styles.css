@@ -25,7 +25,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--primary-color1);
-    padding: 0.5rem 5%;
+    padding: 1rem 5%;
 }
 
 .logo {
@@ -35,8 +35,8 @@ body {
 }
 
 .logo-icon {
-    width: 3.4rem;
-    height: 3.4rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .nav {
@@ -103,6 +103,15 @@ body {
     border-color: var(--primary-color);
     border-style: solid;
     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.user-icon {
+    width: 5rem;
+    border-radius: 999px;
+}
+
+.user-icon:hover {
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
@@ -175,6 +184,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--primary-color);
+    text-decoration: none;
 }
 
 .info-card:hover {
