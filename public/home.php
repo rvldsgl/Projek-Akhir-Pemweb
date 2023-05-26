@@ -97,3 +97,7 @@
         <?php include '../components/footer.html'; ?>
     </footer>
 </body>
+    <footer>
+        <?php include '../components/footer.html'; ?>
+    </footer>
+</body>
