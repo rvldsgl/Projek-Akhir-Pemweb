@@ -21,13 +21,6 @@
     <header>
         <?php
         require '../components/navbar-login.html';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
->>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
         ?>
     </header>
 
@@ -46,13 +39,19 @@
                         <a class="edit-button" href="" style="height:fit-content;">Edit</a>
                     </div>
                     <div class="name">
-                        <label for=""><h2>Nama Lengkap</h2></label>
+                        <label for="">
+                            <h2>Nama Lengkap</h2>
+                        </label>
                     </div>
                     <div class="school">
-                        <label for=""><h2>Sekolah</h2></label>
+                        <label for="">
+                            <h2>Sekolah</h2>
+                        </label>
                     </div>
                     <div class="jenjang">
-                        <label for=""><h2>Jenjang</h2></label>
+                        <label for="">
+                            <h2>Jenjang</h2>
+                        </label>
                     </div>
                 </div>
                 <div class="profile-opt">
@@ -60,42 +59,20 @@
                     <a class="logout-button" href="">Log Out</a>
                 </div>
             </div>
-<<<<<<< HEAD
-        </div>
-        
-=======
-<<<<<<< HEAD
-        </div>
-        
-=======
 
 
         </div>
 
->>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
->>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
     </main>
 
     <!-- footer -->
 
     <footer>
-<<<<<<< HEAD
-        <?php
-        require '../components/footer.html';
-        ?>
-=======
-<<<<<<< HEAD
-        <?php
-        require '../components/footer.html';
-        ?>
-=======
 
         <?php
         require '../components/footer.html';
         ?>
 
->>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
->>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
     </footer>
 
 
