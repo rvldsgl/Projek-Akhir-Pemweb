@@ -8,9 +8,6 @@
     --background-color: #AFD3E2;
 }
 
-:root {
-}
-
 @font-face {
     font-family: "Monserrat";
     src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
@@ -21,6 +18,53 @@ body{
     background-color: #AFD3E2;
     font-family: "Monserrat";
 }
+
+/* .login-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 200px;
+    justify-content: space-evenly;
+}
+
+.wrap1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.study-img {
+    width: 100vh;
+}
+
+.wrap2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 5%;
+    gap: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.eml, .pass {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+
+/* Nopal */
 
 .link{
     text-decoration: none;
@@ -107,7 +151,6 @@ body{
     height: 347px;
     left: 0;
     object-fit: cover;
-    /* position: absolute; */
     top: 0;
     width: 488px;
 }
@@ -132,4 +175,4 @@ body{
     color: white;
     font-family: var(--font-family-outfit);
     min-height: 81px;
-}
+} 
