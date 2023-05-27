@@ -90,6 +90,6 @@
     <!-- footer -->
 
     <footer>
-        <?php include '../components/footer.html'; ?>
+        <?php require '../components/footer.html'; ?>
     </footer>
 </body>
