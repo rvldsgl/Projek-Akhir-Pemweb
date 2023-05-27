@@ -13,58 +13,16 @@
     src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
 body{
     margin: 0;
     background-color: #AFD3E2;
     font-family: "Monserrat";
 }
-
-/* .login-page {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 200px;
-    justify-content: space-evenly;
-}
-
-.wrap1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.study-img {
-    width: 100vh;
-}
-
-.wrap2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--primary-color);
-    padding: 5%;
-    gap: 20px;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.eml, .pass {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-} */
-
-/* Nopal */
 
 .link{
     text-decoration: none;
@@ -86,6 +44,7 @@ body{
 }
 
 .cek{
+    font-family: "Monserrat";
     font-size: 18px;
     color: white;
 }
@@ -114,13 +73,13 @@ body{
 
 .email{
     color: white;
-    font-family: var(--font-family-outfit);
+    font-family: "Monserrat";
     font-size: var(--font-size-s);
 }
 
 .password{
     color: white;
-    font-family: var(--font-family-outfit);
+    font-family: "Monserrat";
     font-size: var(--font-size-s);
 }
 
@@ -138,12 +97,13 @@ body{
 }
 
 .title{
+    text-decoration: none;
     color: #2F2963;
-    font-family: var(--font-family-outfit);
+    font-family: "Monserrat";
     font-size: var(--font-size-l);
     white-space: nowrap;
     width: 282px;
-    margin-left: 490px;
+    margin-left: 400px;
 }
 
 .manusia{
@@ -151,6 +111,7 @@ body{
     height: 347px;
     left: 0;
     object-fit: cover;
+    /* position: absolute; */
     top: 0;
     width: 488px;
 }
@@ -173,6 +134,6 @@ body{
     letter-spacing: 0;
     line-height: normal;
     color: white;
-    font-family: var(--font-family-outfit);
+    font-family: "Monserrat";
     min-height: 81px;
-} 
+}
