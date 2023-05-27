@@ -36,6 +36,15 @@
                     <p>Perluas wawasan dan keterampilan Anda. Jelajahi topik yang Anda minati dan raih keunggulan dalam
                         karir Anda</p>
                 </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                <div>
+
+                </div>
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
+>>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
             </div>
             <div class="dashboard-background">
                 <img id="dash-img1" src="../assets/images/landingpage-image1.png" style="width: 50%;" alt="">
@@ -93,4 +102,14 @@
     <footer>
         <?php include '../components/footer.html'; ?>
     </footer>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+</body>
+    <footer>
+        <?php include '../components/footer.html'; ?>
+    </footer>
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
+>>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
 </body>

@@ -41,6 +41,7 @@
                 </div>
             </a>
 
+<<<<<<< HEAD
             <a class="course-card" href="">
                 <div class="course-img">
                     <img class="course-img" src="../assets/images/microscope.png" alt="">
@@ -70,6 +71,8 @@
             </a>
 
 
+=======
+>>>>>>> 876079b511a0d3e7962f86c6c277dc9651ac6dca
         </div>
 
     </main>
