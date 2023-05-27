@@ -27,7 +27,6 @@
     <main>
 
         <div class="course-board">
-            <div class="kotak">
             <a class="course-card" href="">
                 <div class="course-img">
                     <img class="course-img" src="../assets/images/equation.png" alt="">
@@ -43,7 +42,6 @@
             </a>
             </div>
 
-            <div class="kotak">
             <a class="course-card" href="">
                 <div class="course-img">
                     <img class="course-img" src="../assets/images/equation.png" alt="">
