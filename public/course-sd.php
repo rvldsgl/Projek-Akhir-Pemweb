@@ -59,6 +59,21 @@
             </a>
             </div>
 
+            <a class="course-card" href="">
+                <div class="course-img">
+                    <img class="course-img" src="../assets/images/book.png" alt="">
+                </div>
+                <div class="course-head">
+                    <div class="course-title">
+                        <h1>Bahasa Indonesia</h1>
+                    </div>
+                    <div class="course-content">
+                        <p>Pelajaran Bahasa Indonesia yang bertujuan untuk memperkenalkan dan mengembangkan kemampuan mereka dalam berbahasa Indonesia secara baik dan benar</p>
+                    </div>
+                </div>
+            </a>
+
+
         </div>
 
     </main>
@@ -66,6 +81,6 @@
     <!-- footer -->
 
     <footer>
-        <?php include '../components/footer.html'; ?>
+        <?php require '../components/footer.html'; ?>
     </footer>
 </body>

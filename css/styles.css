@@ -345,6 +345,7 @@ body {
     flex-direction: column;
 }
 
+/* course */
 
 .course-board {
     display: flex;
@@ -386,7 +387,9 @@ body {
     color: white;
 }
 
+.course-content {
 
+}
 
 @media only screen and (max-width: 1200px) {
     html {
