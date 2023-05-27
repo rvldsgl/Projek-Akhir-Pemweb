@@ -339,6 +339,7 @@ body {
 }
 
 
+<<<<<<< HEAD
 /* course */
 
 .course-board {
@@ -384,6 +385,9 @@ body {
 .course-content {
 
 }
+=======
+
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
 
 
 @media only screen and (max-width: 1200px) {

@@ -21,6 +21,10 @@
     <header>
         <?php
         require '../components/navbar-login.html';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
         ?>
     </header>
 
@@ -53,16 +57,31 @@
                     <a class="logout-button" href="">Log Out</a>
                 </div>
             </div>
+<<<<<<< HEAD
         </div>
         
+=======
+
+
+        </div>
+
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
     </main>
 
     <!-- footer -->
 
     <footer>
+<<<<<<< HEAD
         <?php
         require '../components/footer.html';
         ?>
+=======
+
+        <?php
+        require '../components/footer.html';
+        ?>
+
+>>>>>>> 80008f62f3ea93213319e83d4bc680d268502fa1
     </footer>
 
 
