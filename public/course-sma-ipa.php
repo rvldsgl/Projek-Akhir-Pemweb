@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="web icon" href="../assets/icons/Logo.png">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/course.css">
     <title>Course SMA IPA</title>
 </head>
 
@@ -27,6 +27,7 @@
     <main>
 
         <div class="course-board">
+            
             <a class="course-card" href="">
                 <div class="course-img">
                     <img class="course-img" src="../assets/images/equation.png" alt="">
