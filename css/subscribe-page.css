@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #146C94;
+    --primary-color1: #D7EBED;
+    --secondary-color: #2F2963;
+    --background-color: #AFD3E2;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Monserrat";
+    margin: 0;
+}
+
+.subscribe-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px 0px;
+}
+
+.subscribe-plan {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.basic-plan {
+    display: flex;
+    flex-direction: column;
+    background-color: #146C94;
+    color: white;
+    padding: 30px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.basic-content {
+    display: flex;
+    background-color: var(--primary-color1);
+    color: black;
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 400px;
+}
+
+ul {
+    padding-inline-start: 30px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+.plan-img {
+    width: 20px;
+    height: 100%;
+}
+
+li {
+    margin-bottom: 10%;
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.basic-button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.basic-button:hover {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}

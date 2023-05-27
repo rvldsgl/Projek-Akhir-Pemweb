@@ -10,10 +10,6 @@
     src: url("../assets/fonts/Monserrat/Montserrat-Regular.ttf") format("truetype");
 }
 
-header {
-background-color: black;
-}
-
 body {
     background-color: var(--background-color);
     font-family: "Monserrat";
@@ -25,7 +21,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--primary-color1);
-    padding: 0.5rem 5%;
+    padding: 1rem 5%;
 }
 
 .logo {
@@ -35,8 +31,8 @@ body {
 }
 
 .logo-icon {
-    width: 3.4rem;
-    height: 3.4rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .nav {
@@ -103,6 +99,15 @@ body {
     border-color: var(--primary-color);
     border-style: solid;
     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.user-icon {
+    width: 5rem;
+    border-radius: 999px;
+}
+
+.user-icon:hover {
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
 }
 
@@ -175,6 +180,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     background-color: var(--primary-color);
+    text-decoration: none;
 }
 
 .info-card:hover {
@@ -261,6 +267,124 @@ body {
     flex-direction: row;
     gap: 10px;
 }
+
+
+/* profile.php */
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 150px 10%;
+    gap: 5%;
+}
+
+.profile-wrap1 {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 200px;
+}
+
+.profile-wrap2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 30px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-opt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-button, .premium-button, .logout-button {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.edit-button:hover, .premium-button:hover, .logout-button:hover {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 5px; 
+    padding: 5px 10px;
+    border-color: var(--primary-color);
+    border-style: solid;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+
+/* course */
+
+.course-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 70%;
+    text-decoration: none;
+}
+
+.course-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+}
+
+.course-img {
+    width: 200px;
+}
+
+.course-head {
+    color: white;
+
+}
+
+.course-title {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0px 20px;
+    color: white;
+}
+
+.course-content {
+
+}
+
 
 @media only screen and (max-width: 1200px) {
     html {
